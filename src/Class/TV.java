@@ -62,6 +62,16 @@ public class TV {
 		System.out.println("현재 채널 "+channel+"번");
 	}
 	
+	public void upVolume() {
+		volume++;
+		System.out.println("현재 볼륨 : "+volume);
+	}
+	
+	public void downVolume() {
+		volume--;
+		System.out.println("현재 볼륨 : "+volume);
+	}
+	
 	@Override
 	public String toString() {
 		return "TV [color=" + color + ", producer=" + producer + ", size=" + size + ", channel=" + channel + ", volume="
